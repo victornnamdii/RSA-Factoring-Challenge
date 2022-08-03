@@ -19,5 +19,7 @@ def factor():
                 if i % j == 0:
                     print("{}*{}".format(j, (i // j)))
                     break
+            if i % j != 0:
+                print("{}*1".format(i))
 if __name__ == "__main__":
     factor()
